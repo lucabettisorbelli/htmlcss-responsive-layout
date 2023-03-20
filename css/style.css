@@ -150,4 +150,14 @@
         width: 45%;
         margin-right: 1rem;
     }
+    .boxAbout {
+        display: flex;
+        flex-direction: row;
+    }
+    .paragrafAbout {
+        width: 50%;
+    }
+    .boxTestimonial {
+        width: 50%;
+    }
 }
