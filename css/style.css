@@ -15,7 +15,8 @@
     flex-direction: column;
 }
 .boxedPhone {
-    padding: 0 30px;
+    max-width: 85%;
+    margin: 0 auto;
 }
 .bgBlue {background-color: #0084fd;}
 .bgLightblue {background-color: #b5ddff;}
@@ -29,7 +30,6 @@
     min-height: 4em;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 
