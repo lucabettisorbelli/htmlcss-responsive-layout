@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+
+/* HELPER */
+.flex {
+    display: flex;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+}
+.boxedPhone {
+    padding: 0 30px;
+}
+.bgBlue {background-color: #0084fd;}
+.bgLightblue {background-color: #b5ddff;}
+.bgViolet {background-color: #9792e4;}
+.colWhite {color: white;}
+.colBlack {color: black;}
+
+/* mobile first */
+
+.contNav {
+    min-height: 4em;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
