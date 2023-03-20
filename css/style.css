@@ -27,7 +27,9 @@
     max-width: 85%;
     margin: 0 auto;
 }
-
+.pad05{
+    padding: 0.5rem;
+}
 .bgBlue {background-color: #0084fd;}
 .bgLightblue {background-color: #b5ddff;}
 .bgViolet {background-color: #9792e4;}
@@ -57,6 +59,7 @@
     margin-bottom: 1rem;
 }
 
+
 .contBoxTop img {
     width: 70%;
 }
@@ -64,6 +67,14 @@
 
 .boxPlanning img {
     width: 100%;
+}
+
+.boxText > *{
+    padding: 0.5rem;
+}
+
+.textApp p {
+    padding: 0.5rem;
 }
 
 .boxApp {
@@ -94,11 +105,26 @@
     margin-bottom: 2em;
 }
 
+.paragrafAbout > * {
+    padding: 0.5rem;
+}
+
 .boxTestimonial img {
     width: 40%;
     border-radius: 50%;
 }
 
+.boxTestimonial > * {
+    padding: 0.5rem;
+}
+
+.boxFooter > * {
+    padding: 0.5rem;
+}
+
+.boxFooterLink * {
+    padding: 0.5rem;
+}
 /* tablet, da 480px a 760px */
 
 @media screen and (min-width:480px) and (max-width:760px) {
