@@ -14,10 +14,14 @@
 .column {
     flex-direction: column;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 .boxedPhone {
     max-width: 85%;
     margin: 0 auto;
 }
+
 .bgBlue {background-color: #0084fd;}
 .bgLightblue {background-color: #b5ddff;}
 .bgViolet {background-color: #9792e4;}
@@ -30,6 +34,22 @@
     min-height: 4em;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3rem;
+}
+
+/* Main */
+
+.contBoxTop, .contBox{
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contBoxTop img {
+    width: 70%;
+    display: block;
 }
 
 
