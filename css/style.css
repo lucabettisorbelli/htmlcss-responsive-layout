@@ -24,7 +24,7 @@
     justify-content: space-between;
 }
 .boxedPhone {
-    max-width: 85%;
+    width: 85%;
     margin: 0 auto;
 }
 .pad05{
@@ -125,9 +125,27 @@
 .boxFooterLink * {
     padding: 0.5rem;
 }
-/* tablet, da 480px a 760px */
 
-@media screen and (min-width:480px) and (max-width:760px) {
+/* mobile, da 0 a 768px */
+
+@media screen and (max-width: 768px){
+    .boxedPhone {
+        max-width: 600px;
+    }
+    .navDesk {
+        display: none;
+    }
+}
+
+/* tablet, da 769px a 992px */
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .boxedPhone {
+        max-width: 800px;
+    }
+    .navDesk{
+        display: none;
+    }
     .row {
         display: flex;
         flex-direction: row;
@@ -135,11 +153,10 @@
         padding: 2rem;
     }
     .contBoxTop {
-        width: 60%;
-        
+        width: 65%;
     }
     .contBox {
-        width: 31%;
+        width: 30%;
     }
     .boxBenefits {
         display: flex;
@@ -160,4 +177,29 @@
     .boxTestimonial {
         width: 50%;
     }
+}
+
+/* desktop, sopra 993px */
+
+@media screen and (min-width:993px) {
+    .boxedPhone {
+        max-width: 1200px;
+    }
+
+    .window i {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .contBoxTop {
+        width: 65%;
+    }
+    .contBox {
+        width: 30%;
+}
 }
