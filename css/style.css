@@ -104,7 +104,9 @@
 .card {
     margin-bottom: 2em;
 }
-
+.imagineApp {
+    text-align: center;
+}
 .paragrafAbout > * {
     padding: 0.5rem;
 }
@@ -149,7 +151,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 2rem;
+        justify-content: space-between;
     }
     .contBoxTop {
         width: 65%;
@@ -204,7 +206,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 2rem;
+        justify-content: space-between;
     }
     .contBoxTop {
         width: 65%;
@@ -224,5 +226,49 @@
     }
     .contBox {
         width: 30%;
+    }
+    .boxPlanning {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .boxPlanner {
+        width: 40%;
+        height: 20%;
+    }
+    .boxApp {
+        width: 30%;
+        height: 60%;
+    }
+    .figure {
+        display: flex;
+        flex-direction: row;
+    }
+    .textAll {
+        display: flex;
+        flex-direction: column;
+    }
+    .boxBenefits {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 30%;
+    }
+    .boxAbout {
+        display: flex;
+        flex-direction: row;
+    }
+    .paragrafAbout {
+        width: 50%;
+    }
+    .boxManager {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
