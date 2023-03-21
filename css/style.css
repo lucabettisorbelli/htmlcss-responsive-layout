@@ -60,9 +60,11 @@
 }
 
 .contBoxTop img {
-    width: 70%;
+    width: 50%;
 }
-
+.imgSave {
+    text-align: center;
+}
 .boxPlanning img {
     width: 100%;
 }
@@ -206,8 +208,21 @@
     }
     .contBoxTop {
         width: 65%;
+        display: flex;
+    }
+    .imgSave img { 
+        width: 100%;
+    }
+    .contBoxTop > h3 {
+        display: flex;
+        flex-direction: row;
+    }
+    .contRow{
+        height: 100%;
+        align-items: flex-start;
+        justify-content: space-around;
     }
     .contBox {
         width: 30%;
-}
+    }
 }
